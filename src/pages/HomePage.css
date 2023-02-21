@@ -1,0 +1,54 @@
+.MainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+    .ProductCardContainer{
+        display: flex;
+        margin-top: 12vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .top,.bottom{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .imagekohli{
+        display: flex;
+        height: 400px;
+        width: 350px;
+        z-index: -1;
+        margin-right: 100px;
+    }
+    .Featured{
+        background-image: url(../assets/kohli.jpg);
+        z-index: -1;
+    }
+    .top{
+        background-image: url(../assets/shoe.jpg);
+        width: 60%;
+        height: 100%;
+        background-size: 100% 100%;
+        color: grey;
+        margin-bottom: 10px;
+        border: 1px solid white;
+
+    }
+    .bottom{
+        background-image: url(../assets/laptop.jpg);
+        width: 60%;
+        height: 100%;
+        background-size: 100% 100%;
+        color: white;
+        border: 1px solid black;
+
+    }
+    .cartproduct{
+        border: 1px solid white;
+        margin: 5%;
+        width: 90%;
+        padding: 4%;
+    }
